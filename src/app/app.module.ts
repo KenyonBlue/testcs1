@@ -23,4 +23,6 @@ import { TestCoStarComponent } from './test-co-star/test-co-star.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+  
+}
