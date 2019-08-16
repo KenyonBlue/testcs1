@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="col-xs-12">
+    <button class="btn btn-success">New User</button>
+  </div>
+</div>
+<hr>
+<div class="row">
+  <div class="col-xs-12">
+    <a href="#" class="list-group-item clearfix" *ngFor="let user of users">
+      <div class="pull-right">
+        <h4 class="list-group-item-heading ">  {{ user.name }} </h4>
+        <p class="list-group-item-text ">  {{ user.squaaad }} </p>
+      </div>
+      <span class="pull-left">
+        <img src="{{ user.imagePath }}" alt="{{ user.name }}" class="image-responsive" style="max-height: 50px;">
+      </span>
+    </a>
+    <app-recipe-item></app-recipe-item>
+  </div>
+</div>
