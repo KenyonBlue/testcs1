@@ -8,7 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { RecipesComponent } from './recipes/recipes.component';
 import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail.component';
 import { RecipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-item.component';
-import { RecipeListComponent } from './recipes/recipe-list/recipe-list.component';
+import { UserListComponent } from './recipes/recipe-list/user-list.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
 
@@ -22,7 +22,7 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
     RecipesComponent,
     RecipeDetailComponent,
     RecipeItemComponent,
-    RecipeListComponent,
+    UserListComponent,
     ShoppingListComponent,
     ShoppingEditComponent
   ],

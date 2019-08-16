@@ -1,7 +1,10 @@
-<div class="row">
+<div class="row" id="border">
     <div class="col-xs-10">
-            <app-shopping-edit></app-shopping-edit>
+        <p>parent</p>
+            <app-shopping-edit [post]="blogPosts[0]" [message]="words" [tryThis]="words[0]"></app-shopping-edit>
             <hr>
-            <p>list</p>
+            <ul class="list-group">
+                <a class="list-group-item" style="cursor: pointer"></a>
+            </ul>
     </div>
 </div>
