@@ -5,13 +5,12 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 // recipe page components 
 import { HeaderComponent } from './header/header.component';
-import { RecipesComponent } from './recipes/recipes.component';
-import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail.component';
-import { RecipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-item.component';
-import { UserListComponent } from './recipes/recipe-list/user-list.component';
-import { ShoppingListComponent } from './shopping-list/shopping-list.component';
-import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
-
+import { RecipesComponent } from './users/recipes.component';
+import { UserDetailComponent } from './users/user-detail/user-detail.component';
+import { SquaaadListComponent } from './member-list/squaaad-list.component';
+import { RecipeItemComponent } from './users/user-list/recipe-item/recipe-item.component';
+import { UserListComponent } from './users/user-list/user-list.component';
+import { SquaaadEditComponent } from './member-list/squaaad-edit/squaaad-edit.component';
 
 
 
@@ -20,14 +19,14 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
     AppComponent,
     HeaderComponent,
     RecipesComponent,
-    RecipeDetailComponent,
+    UserDetailComponent,
     RecipeItemComponent,
     UserListComponent,
-    ShoppingListComponent,
-    ShoppingEditComponent
+    SquaaadListComponent,
+    SquaaadEditComponent
   ],
   imports: [
-BrowserModule,
+  BrowserModule,
     FormsModule,
   ],
   providers: [],
