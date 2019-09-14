@@ -3,11 +3,14 @@
       <div class="col-md-12">
         <app-header></app-header>
         <app-recipes></app-recipes>
-        <app-shopping-list></app-shopping-list>
+        <app-squaaad-list></app-squaaad-list>
+        <hr>
+        <app-servers></app-servers>
+        <hr>
       </div>
   </div>
-
- <h2> RhtwFtb </h2>
+  <app-alert-button></app-alert-button>
+ <h2 class="testHeader"> RhtwFtb </h2>
  my team: 
  <select (change)="numGame($event.target.value)">
    <option *ngFor="let g of team" [value]="g.status" 
@@ -30,7 +33,13 @@
   </p>
   </span>
 
+  <br>
+  <div style="
+    display: grid; 
+    grid-template-columns: 1fr 1fr 5fr; grid-gap: 1em; 
+    justify-items: end">
+    <div style="border: 1px solid red; margin-right: auto; "> <p>red</p>  </div>
+    <div style="border: 1px solid blue; margin-right: auto;"> <p>blue</p>  </div>
+    <div style="border: 1px solid green; "> <p style="color:gray; width: 30%;">greeny</p>  </div>
+  </div>
 </div>
-
-
-

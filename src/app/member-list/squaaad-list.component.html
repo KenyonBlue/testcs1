@@ -1,0 +1,16 @@
+<div class="row" id="border">
+    <div class="col-xs-10">
+        <app-squaaad-edit></app-squaaad-edit>
+        <hr>
+        <p>User Attributes</p>
+        <ul class="list-group">
+                <a 
+                    class="list-group-item" 
+                    style="font: 'red'"
+                    style="cursor: pointer"
+                    *ngFor="let att of attribute"
+                > 
+                {{ att.name }}: {{ att.userAttribute }}</a>
+            </ul>
+    </div>
+</div>
