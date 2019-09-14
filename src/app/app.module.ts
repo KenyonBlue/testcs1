@@ -11,6 +11,11 @@ import { SquaaadListComponent } from './member-list/squaaad-list.component';
 import { RecipeItemComponent } from './users/user-list/recipe-item/recipe-item.component';
 import { UserListComponent } from './users/user-list/user-list.component';
 import { SquaaadEditComponent } from './member-list/squaaad-edit/squaaad-edit.component';
+import { CockpitComponent } from './cockpit/cockpit.component';
+import { ServerElementComponent } from './server-element/server-element.component';
+import { ServerComponent } from './server/server.component';
+import { ServersComponent } from './servers/servers.component';
+import { AlertButtonComponent } from './alert-button/alert-button.component';
 
 
 
@@ -23,7 +28,12 @@ import { SquaaadEditComponent } from './member-list/squaaad-edit/squaaad-edit.co
     RecipeItemComponent,
     UserListComponent,
     SquaaadListComponent,
-    SquaaadEditComponent
+    SquaaadEditComponent,
+    CockpitComponent,
+    ServerElementComponent,
+    ServerComponent,
+    ServersComponent,
+    AlertButtonComponent
   ],
   imports: [
   BrowserModule,

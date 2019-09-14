@@ -4,10 +4,13 @@
         <app-header></app-header>
         <app-recipes></app-recipes>
         <app-squaaad-list></app-squaaad-list>
+        <hr>
+        <app-servers></app-servers>
+        <hr>
       </div>
   </div>
-
- <h2> RhtwFtb </h2>
+  <app-alert-button></app-alert-button>
+ <h2 class="testHeader"> RhtwFtb </h2>
  my team: 
  <select (change)="numGame($event.target.value)">
    <option *ngFor="let g of team" [value]="g.status" 
